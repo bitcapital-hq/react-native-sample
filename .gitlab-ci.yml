@@ -1,0 +1,19 @@
+image: reactnativecommunity/react-native-android
+before_script:
+  - yarn global add envinfo && envinfo
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - echo $NPMRC > .npmrc
+    - yarn install
+    - cd android && chmod +x gradlew
+    - ./gradlew assembleRelease
+  tags:
+    - docker
+  artifacts:
+    paths:
+    - android/app/build/outputs/
