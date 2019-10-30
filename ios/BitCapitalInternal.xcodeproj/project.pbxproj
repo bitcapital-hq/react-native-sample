@@ -38,12 +38,12 @@
 		3ABDBD307BA6472B819165A6 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DF187B9709B44B1B09E5AE9 /* Lato-Light.ttf */; };
 		46CFA09012004B57A180493E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E776854E6DF4149A0C215C6 /* Lato-Black.ttf */; };
 		4DC53D6D5D8C4D8BB89AE3BF /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 386C12BB805E436B9F8896BB /* Lato-BlackItalic.ttf */; };
+		4FA39E182368EC8D007097E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FA39E172368EC8D007097E0 /* GoogleService-Info.plist */; };
 		51E18D9F3C424BF19D5E4CED /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF7F586EB17B419B842E877F /* Lato-Italic.ttf */; };
 		5C613267535E4DA780429CDC /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 556A55BA9A27420D945A9850 /* Lato-LightItalic.ttf */; };
 		5D99BE54A93A4AA8B82EFCDB /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57075C9117E84FAF9923FC4D /* Lato-Bold.ttf */; };
 		9436F3715FEE415C98BEAE88 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0789B426701141F7822A1C0C /* Lato-HairlineItalic.ttf */; };
 		9BCB414562784B5FB76A5FCE /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D03DB3B4F20F4A42AC5AD8FA /* Lato-Hairline.ttf */; };
-		9F7EE8DE22F6BDC1008B8318 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EE8DD22F6BDC1008B8318 /* GoogleService-Info.plist */; };
 		9F93EE0E2253C86C0042B56C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F93EE0D2253C86C0042B56C /* logo.png */; };
 		D90BDB2BFF9B74D5CBE0DD58 /* libPods-BitCapitalHopper-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A574DF3505A1D04B2C6683 /* libPods-BitCapitalHopper-tvOSTests.a */; };
 		DFECDF4C235E4B2DB34BBFC2 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE25B07FAE284DE4868109F3 /* Lato-Regular.ttf */; };
@@ -344,6 +344,7 @@
 		386C12BB805E436B9F8896BB /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BlackItalic.ttf"; path = "../assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
 		4445C900EED058ADC5C45E4C /* Pods-BitCapitalHopper-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCapitalHopper-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCapitalHopper-tvOS/Pods-BitCapitalHopper-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		47E1F32F5B1E8D389C7A680F /* Pods-BitCapitalHopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCapitalHopperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitCapitalHopperTests/Pods-BitCapitalHopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA39E172368EC8D007097E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51E736C152EC2AABB040DC74 /* Pods-BitCapitalHopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitCapitalHopper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitCapitalHopper/Pods-BitCapitalHopper.release.xcconfig"; sourceTree = "<group>"; };
 		556A55BA9A27420D945A9850 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-LightItalic.ttf"; path = "../assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 		57075C9117E84FAF9923FC4D /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
@@ -602,6 +603,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4FA39E172368EC8D007097E0 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* BitCapitalHopper */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* BitCapitalHopperTests */,
@@ -1096,6 +1098,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA39E182368EC8D007097E0 /* GoogleService-Info.plist in Resources */,
 				21602633230C3BB20054B198 /* FontAwesome5_Solid.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				21602642230C3BB20054B198 /* MaterialIcons.ttf in Resources */,
@@ -1107,7 +1110,6 @@
 				5D99BE54A93A4AA8B82EFCDB /* Lato-Bold.ttf in Resources */,
 				2160263C230C3BB20054B198 /* Foundation.ttf in Resources */,
 				EF200FDFAFB1472F9D102B06 /* Lato-BoldItalic.ttf in Resources */,
-				9F7EE8DE22F6BDC1008B8318 /* GoogleService-Info.plist in Resources */,
 				9BCB414562784B5FB76A5FCE /* Lato-Hairline.ttf in Resources */,
 				9436F3715FEE415C98BEAE88 /* Lato-HairlineItalic.ttf in Resources */,
 				51E18D9F3C424BF19D5E4CED /* Lato-Italic.ttf in Resources */,

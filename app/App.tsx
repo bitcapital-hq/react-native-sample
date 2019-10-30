@@ -1,5 +1,6 @@
 
 require('./devtools');
+import './config/ReactotronConfig';
 
 import Bitcapital from '@bitcapital/core-sdk';
 import * as React from 'react';
